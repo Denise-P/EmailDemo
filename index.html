@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--html hides data from page-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X_UA_Compartible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- Link To CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/nav.css">
+  </head>
+  <!--Whatever we see on the Page-->
+  <body>
+    <header class="navbar">
+      <nav>
+        <div class="logo">
+          <img src="image/colco_icon.png" />
+          <span>ColCo</span>
+        </div>
+        <ul
+          style="
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+          "
+        >
+          <li><a href="index.html">The Project</a></li>
+          <li><a href="teams.html">Meet the Teams</a></li>
+          <li><a href="index.html#contact-section" class="contact-btn">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <!-- Curvy background -->
+      <svg class='svg' viewBox="0 0 1440 539" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M-1 539C-1 539 309.631 479.916 511.172 478.137C712.713 476.358 817.305 524.355 994.45 512.182C1171.59 500.01 1451 431.149 1451 431.149V0H-1V539Z" fill="#023F3A"/>
+      </svg>
+      
+      <div class="float-text">
+        <h1>Revolutionizing Cocoa Farming With AI</h1>
+          <p>Col Co (short for Columbian Cocoa) is an innovative project aimed at
+            transforming cocoa farming through advanced technology. With the power
+            of machine learning and computer vision, we are empowering farmers to
+            detect and manage cocoa pod diseases efficiently and precisely.
+          </p>
+          <div class="buttons">
+            <a href="#" class="btn get-started">Get Started</a>
+            <a href="#" class="btn start-trail">Start Free Trial</a>
+          </div>
+      </div>
+  </section>
+  
+    <section class="image-section">
+      <img src="image/cocoa_pods.png" alt="">
+    </section>    
+
+    <!-- Our Mission -->
+    <section class="mission-section">
+      <div class="mission-text">
+        <h2>Our Mission</h2>
+        <p>
+          Cocoa farming faces numerous challenges, particularly from diseases
+          that can devastate crops and livelihoods. Col Co aims to tackle these
+          challenges by introducing an image-based disease detection system.
+          Using deep learning and image processing, our system delivers fast,
+          accurate, and scalable disease diagnostics.
+        </p>
+        <!-- Icons Section -->
+        <div class="icons-section">
+          <div class="icon">
+            <img src="image/ai-insights.png" />
+            <span>AI-Powered Insights</span>
+          </div>
+          <div class="icon">
+            <img src="image/certified-solutions.png" />
+            <span>Certified Solutions</span>
+          </div>
+          <div class="icon">
+            <img src="image/productivity.png" />
+            <span>Enhanced Productivity</span>
+          </div>
+        </div>
+      </div>
+      <!-- Right Side: Images -->
+      <div class="mission-images">
+        <img src="image/plants.jpg" />
+        <img src="image/cocoa_pods.jpg" />
+        <img src="image/bowl_of_cocoa.jpg" />
+      </div>
+    </section>
+
+    <!-- Meet the Team Section -->
+    <section class="team-section">
+      <h2>Our Agricultural Innovations</h2>
+      <div class="team-container">
+        <!-- Card 1 -->
+        <a href="#" class="team-card">
+          <img src="image/cocoa_plant.jpg" alt="Machine Learning Team" />
+          <div class="overlay-text">
+            <h3>Colombia Team</h3>
+            <p>Mapping & Field Team</p>
+          </div>
+        </a>
+        <!-- Card 2 -->
+        <a href="diseaseDetection.html" class="team-card">
+          <img src="image/plant-ml.jpg" alt="Machine Learning Team" />
+          <div class="overlay-text">
+            <h3>Disease Detection</h3>
+            <p>Innovation in Plant Health Diagnostics</p>
+          </div>
+        </a>
+        <!-- Card 3 -->
+        <a href="data-collection-team.html" class="team-card">
+          <img src="image/sensor.jpg" alt="Data Collection Team" />
+          <div class="overlay-text">
+            <h3>Data Collection Team</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <body>
+      <!-- Contact Section -->
+      <section id="contact-section" class="contact-section">
+        <div class="contact-info">
+          <div class="info-item">
+            <img src="image/envelop.png" alt="envelop icon">
+            <h3>Email</h3>
+            <p>
+              mario.giraldo@csun.edu <br />
+              alex.modarresi@csun.edu
+            </p>
+          </div>
+          <div class="info-item">
+            <img src="image/phone.png" alt="phone icon">
+            <h3>Phone</h3>
+            <p>(818) 677-4431 <br /></p>
+          </div>
+          <div class="info-item">
+            <img src="image/location.png" alt="location icon">
+            <h3>Office</h3>
+            <p>1686, Geraldine Lane<br />New York, NY 10013</p>
+          </div>
+          <!--
+          <div class="info-item">
+            <img src="image/social.png" alt="social icon">
+            <h3>Socials</h3>
+            <div class="social-icons">
+              <a href="#"><i>FB</i></a>
+              <a href="#"><i>TW</i></a>
+              <a href="#"><i>IG</i></a>
+              <a href="#"><i>LI</i></a>
+            </div>
+          </div>
+          -->
+        </div>
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form action="https://formsubmit.co/e4d1bc2b926a2a01c5760bdbe81fd1d4" method="post">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="email@gmail.com"
+              required
+            />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Your message..."
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- 1st Footer Section -->
+      <footer class="footer">
+        <div class="footer-content">
+          <h3>ColCo</h3>
+          <div class="footer-links">
+            <h4>Quick links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <!--<li><a href="#">Why choose us</a></li>
+              <li><a href="#">Privacy Policy</a></li>-->
+            </ul>
+          </div>
+          <!--
+          <div class="footer-products">
+            <h4>Products</h4>
+            <ul>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+            </ul>
+          </div>
+          -->
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>Mario Giraldo: <strong>(818) 677-4431</strong></p>
+          </div>
+          <!--
+          <div class="footer-social">
+            <h4>Social</h4>
+            <div class="social-icons">
+              <a href="#">FB</a>
+              <a href="#">TW</a>
+              <a href="#">IG</a>
+              <a href="#">YT</a>
+            </div>
+          </div>
+          -->
+        </div>
+      </footer>
+      <!-- 2nd Footer Section -->
+      <footer class="footer2">
+        <p>&copy; 2024 ColCo. All Rights Reserved.</p>
+      </footer>
+    </body>
+
+    <script>
+      document
+        .querySelector(".contact-btn")
+        .addEventListener("click", function (e) {
+          e.preventDefault(); // Prevent the default anchor behavior
+          document.querySelector("#contact-section").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+    </script>
+  </body>
+</html>
